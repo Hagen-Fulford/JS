@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">   
+        <div>
+            <h1 class="header">Network</h1>
+        </div>
+        <h2 class="feed-header">Your Feed</h2>
+        <!-- left side  -->
+        <div class="row">
+            <div class="left-side">
+                <img src="assets/pencil_1.png" alt="headshot of hagen" width="80">
+                <div class="left_details">
+                    <h2 class="myname"><a href="#" class="avatar"> Add an Avatar</a><br>Hagen Fulford</h2>
+                    
+                </div>
+            </div>
+                <!--right side-->
+            <div class="right-side">
+                <div class="userpost">
+                    <h2 class="user-name">Atlas Fulford</h2>
+                    <div class="likes">
+                        <span id="like1"> 5 like(s)</span>
+                        <button class="likebtn" onclick="mylike()">Like</button>
+                        <p class="detials">I just set up this new dicord bot, let me know what you all think<a href="#"> link.</a></p>
+                    </div>
+                </div>
+                <div class="userpost">
+                    <h2 class="user-name">Kagan Fulford</h2>
+                    <div class="likes">
+                        <span id="like2"> 6 like(s)</span>
+                        <button class="likebtn" onclick="mylike(1)">Like</button>
+                        <p class="detials">Just finished my<a href="#"> next book</a>, check it out.</p>
+                    </div>
+                </div>
+                <div class="userpost">
+                    <h2 class="user-name">Braxton Fulford</h2>
+                    <div class="likes">
+                        <span id="like3"> 3 like(s)</span>
+                        <button class="likebtn" onclick="mylike(2)">Like</button>
+                        <p class="detials"> Heading to Fresno, CA to play for the<a href="#"> Fresno Grizzlies.</a> Whos going to come watch?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js" ></script> 
+</body>
+</html>

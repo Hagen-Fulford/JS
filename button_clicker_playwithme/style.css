@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    background: whitesmoke; 
+}
+.top {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(100,100,132,0.894462008436187) 35%, rgba(0,212,255,1) 100%);
+}
+
+.nav {
+    width: 1080px;
+    margin: 0 auto;
+    color: #ffffff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content:space-evenly;
+}
+.search{
+    display:flex;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: space-evenly;
+    width: 300px;
+}
+.nav-title {
+    margin-left: 10px;
+}
+.nav button {
+    height: 35px;
+    width: 100px;
+    background-color: #17a2b8;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+    border-radius: 5px;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+.col {
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
+.col-2 {
+    flex: 2;
+    margin: 10px;
+    padding: 10px;
+}
+.card-body button{
+    background-color:rgb(236, 211, 128);
+    height: 50px;
+    width: 150px;
+    border-radius: 2px;
+    margin-top: 20px;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 16px;
+}
+.col button{
+    background-color: greenyellow;
+    border-radius: 2px;
+    width: 200px;
+    height: 35px;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 16px;
+}
+.col p{
+    margin-left:50px;
+}
+.flex-container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    padding:10px;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+.card-body {
+    padding: 20px;
+    margin:10px;
+}
+.card-body h2 {
+    margin: 5px;
+    font-size:54px;
+}
+.card-body h3{
+    font-style: italic;
+    margin-left: 30px;
+}
+a {
+    color: #3a81e6;
+}
+.start, .end {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+.footer {
+    padding: 20px;
+    border-top: 2px solid #999;
+}

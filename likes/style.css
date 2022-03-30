@@ -1,0 +1,89 @@
+*{ 
+    margin:0px;
+    padding:0px;
+    }
+    .container{
+        width: 1080px;
+        margin: auto;
+    }
+    h1{
+        background-color: black;
+        color: white;
+        margin-bottom:40px;
+        padding:5px;
+    }
+    .feed-header{
+        text-align: center;
+        font-size: 36px;
+        padding: 10px;
+        margin: 20px;
+    }
+    .row{
+        display: flex;
+    
+    }
+    .left-side{
+        flex: 1;
+        border-style: ridge;
+        border-width: 5px;
+        width: 120px;
+        height: 200px;
+        padding: 10px; 
+    }
+    img{
+        margin-left: 32%;
+        border: none;
+        border-radius: 50%;
+        margin-top:20px
+    }
+    .myname{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .avatar{
+        font-size: 12px;
+        
+    }
+    .right-side{
+        flex:2;
+        margin-left: 100px;
+    }
+    .userpost{
+        border-style: ridge;
+        border-width: 5px;
+        width: 700px;
+        height: 100px;
+        padding: 10px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .likes{
+        
+        justify-content: space-between;
+    }
+    .user-name{
+        text-align: left;
+        justify-content: space-between;
+        
+    }
+    .img{
+        margin: 10px 70px ;
+    }
+    .details{
+        text-align: left;
+        justify-content: flex-start;
+    }
+    #like1, #like2, #like3{
+        text-align: center;
+        display: inline;
+        margin-bottom: 25px;
+    }
+    .likebtn{
+        background-color: yellowgreen;
+        border: solid;
+        border-color:rgb(30, 35, 21);
+        border-radius: 10px;
+        width: 70px;
+        height: 30px;
+    }
+    
